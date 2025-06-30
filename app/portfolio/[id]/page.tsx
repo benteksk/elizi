@@ -52,7 +52,7 @@ export default function PortfolioDetail() {
           <div className="text-gray-700">{portfolio.description}</div>
           <div className="text-gray-500 text-sm">Adres: {portfolio.address}</div>
           {portfolio.mapUrl && (
-            <a href={portfolio.mapUrl} target="_blank" className="text-xs underline text-[#009cb1]">Google Maps'te Aç</a>
+            <a href={portfolio.mapUrl} target="_blank" className="text-xs underline text-[#009cb1]">Google Maps&apos;te Aç</a>
           )}
         </div>
       </div>
